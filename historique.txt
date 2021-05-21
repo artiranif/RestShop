@@ -1,0 +1,205 @@
+13          21/05/21
+--------------------
+- Finition du projet
+- Retrait des codes inutiles
+
+12.1        20/05/21
+--------------------
+- Permission Commande terminée
+
+12          20/05/21
+--------------------
+Objectif: Terminer Commandes
+
+11          20/05/21
+--------------------
+- Une classe PermissionGeneral a été implémenter pour factoriser les classes
+
+10.2        20/05/21
+--------------------
+- La restriction moinstroisenseigne a été implémenter
+
+10.1        20/05/21
+--------------------
+- La permissions propriété enseigne a été implémenter
+
+10          20/05/21
+--------------------
+Objectif: Terminer Enseigne
+
+9.2         20/05/21
+--------------------
+- Restriction de supréssion de produit phare ou commandé implémenter
+
+9.1         20/05/21
+--------------------
+- Seul la marque du producteur s'affiche à la production, grâce à child_query
+
+9           20/05/21
+--------------------
+Objectif: Terminer model Produits
+
+8.3         20/05/21
+--------------------
+- Staff CUD une marque.
+- Staff U produits.
+- Produits Marque Propriétaire  CUD.
+
+8.2         18/05/21
+--------------------
+- tout les champs sont visibles
+
+8.1         18/05/21
+--------------------
+- bug sur marque, impossible d'entrer les propriétaires
+- Enseigne fonctionne bien manque de permissions
+- Produits fonctionne bien manque permissions
+
+8           18/05/21
+--------------------
+Objectif: checkup du projet
+
+7           18/05/21
+--------------------
+- modification des clés primaires de tout les models
+
+6.4         18/05/21
+--------------------
+- les permissions Visible et Staff sont opérationnel
+
+6.3         18/05/21
+--------------------
+- intégration des permissions dans les vues 
+
+6.2.4       18/05/21
+--------------------
+- permissions ProprioCommande, ProprioEnseigne, ProprioProduits
+
+6.2.3       18/05/21
+--------------------
+- permissions AuthR, AuthC creer
+
+6.2.2       18/05/21
+--------------------
+- permissions Staff, StaffU creer
+
+6.2.1       18/05/21
+--------------------
+- permissions Visible creer
+
+6.2         18/05/21
+--------------------
+- creation de différent type de permissions
+
+6.1         18/05/21
+--------------------
+- implémentation des permissions en mode authentifié ou lecture seul
+
+6           18/05/21
+--------------------
+Objectif: Gerer les permissions du site
+
+5.2         18/05/21
+--------------------
+- résolution du bug 'marquepro' avec StringRelatedField
+
+5.1         18/05/21
+--------------------
+- l'accès au modèles marque bug 'marquepro'
+- modèles valident commandes, enseigne, marque, et produits
+
+5           18/05/21
+--------------------
+Objectif: tester le projet et résoudre les bugs
+
+4.4         17/05/21
+--------------------
+- utilisation de HyperLinkedRelatedField
+
+4.3         17/05/21
+--------------------
+- correction non affichage des propriétaires dans marques
+
+4.2         17/05/21
+--------------------
+- correction non affichage du propriétaire sur Enseigne: avec ReadOnlyField
+
+4.1         17/05/21
+--------------------
+- utilisation de routeur
+
+4           17/05/21
+--------------------
+Objectif: Lien vers les vues
+
+3.3         17/05/21
+--------------------
+- Intégration des objets, avec queryset = classe.objects.all()
+
+3.2         17/05/21
+--------------------
+- Intégration des Sérialiseur sur serializer_class
+
+3.1         17/05/21
+--------------------
+- utilisation de ModelViewSet
+
+3           17/05/21
+--------------------
+Objectif: Vue des modèles
+
+2.2         17/05/21
+--------------------
+- Utilisation de HyperLinkedModelSerializer
+- intégration des Meta model et field dans les serialiseurs
+
+
+2.1         17/05/21
+--------------------
+- Création des sérialiseurs vide
+
+2           17/05/21
+--------------------
+Objectif: Sérialiseur des modèles
+
+1.3         17/05/21
+--------------------
+- Ajout de l'option null dans Enseigne (4) pour corriger un bug de FK null
+
+1.2         17/05/21
+--------------------
+- intégration des champs relié au utilisateur: Commandes (3) et Marque (2)
+
+1.1.1         17/05/21
+--------------------
+- ajout de blank dans produitsPhare de l'Enseigne (3)
+
+1.1         17/05/21
+--------------------
+- Implémentation des foreign key dans Enseigne (2)et Produits (2)
+
+1           17/05/21
+--------------------
+Objectif : Créer tout les champs des modèles
+
+
+0.4         17/05/21
+--------------------
+- utilisée des tables numéroté au lieu de table unique. all(1)
+
+0.3         17/05/21
+--------------------
+- intégration des modèles dans l'administration
+
+0.2         17/05/21
+--------------------
+- creation des modèles
+
+0.1         17/05/21
+--------------------
+- creation de l'application gestion
+- liaison de l'application avec le projet 
+
+0           17/05/21
+--------------------
+- creation du projet
